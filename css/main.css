@@ -45,7 +45,7 @@ header {
     object-fit: cover;
 }
 
-header .header-bg-style-coloring {
+header .header-bg-coloroverlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -94,7 +94,7 @@ header .inner-header p {
     }
     
     header .inner-header p {
-        font-size: .35em;
+        font-size: .350em;
     }
 }
 
@@ -103,5 +103,78 @@ main {
     width: 100%;
     height: 100%;
     background-color: #fff;
+    color: #2e2e2e;
+}
+
+.content-1 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+}
+
+.content-1 p {
+    width: 35%;
+    margin-top: 5%;
+    margin-left: 6.2%;
+    font-size: 1.5em;
+    line-height: 1.2em;
+}
+
+.text-blue {
     color: rgb(0, 171, 255);
+    font-weight: 700;
+}
+
+.content-1__category-card {
+    margin: 5% auto;
+    width: 70%;
+    
+}
+
+.category_card {
+    position: relative;
+    width: 50%;
+    height: 450px;
+    margin: 0;
+
+}
+
+.category_card.left {
+    float: left;
+    left: 0;
+    background-color: #ff0000;
+}
+
+.category_card.right {
+    float: right;
+    right: 0;
+    background-color: #00ff11;
+}
+
+
+#example1 {
+    background-image: url('../media/img/101.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+
+
+#example2 {
+    background-size: cover;
+    background-image: url('../media/img/14.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+
+.color_overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 171, 255, 0.5);
 }
